@@ -1,11 +1,23 @@
 # fs - File system utilities for Clojure
 
-[![Build Status](https://secure.travis-ci.org/Raynes/fs.png)](http://travis-ci.org/Raynes/fs)
-
-[API docs](http://raynes.github.com/fs/)
+![Build Status](https://github.com/jiacai2050/fs/actions/workflows/ci.yml/badge.svg)
 
 This library defines some utilities for working with the file system in Clojure. Mostly, it wants to fill the gap that
 `clojure.java.io` leaves and add on (and prettify) what `java.io.File` provides.
+
+## Notice
+
+This library is originally created by [Raynes](https://github.com/Raynes/fs), but unfortunately he passed away [in 2016](https://www.facebook.com/lancepantz/posts/10104155686547809?pnref=story). I rely on this library so I fork it, bump dependencies up to date, add github action for CI, and depoly to [clojars](https://clojars.org/org.clojars.jiacai/fs) so others can also benefit.
+
+```bash
+[org.clojars.jiacai/fs "1.4.6"]
+```
+
+Some discussions:
+- [Clojure open source contributor Anthony Grimes has passed away](https://www.reddit.com/r/Clojure/comments/5gyyxw/clojure_open_source_contributor_anthony_grimes/)
+- [When would I see include-java-7-fns?](https://github.com/Raynes/fs/issues/104)
+
+RIP. Raynes.
 
 ## Usage
 
